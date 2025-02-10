@@ -18,7 +18,6 @@ export const NewMovie: React.FC<Props> = ({ onAdd }) => {
   function isNotAllFilled() {
     //return (title !== '' && description !== '' && imdbUrl !== '' && imdbId !== '' && imgUrl !== '')}
     return (
-      count.trim() === '' ||
       title.trim() === '' ||
       description === '' ||
       imgUrl.trim() === '' ||
